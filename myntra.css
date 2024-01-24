@@ -1,0 +1,408 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+#nav{
+    height:80px;
+    width:100%;
+    box-shadow: 1px 1px 5px gainsboro;
+    display: flex;
+    /* justify-content: center; */
+}
+
+#nav>article{
+    height: 80px;
+    width:92%;
+    /* border:2px solid black; */
+    display: flex;
+}
+#nav>article>.logo{
+    height: 80px;
+    width:7%;
+    /* background-color: red; */
+    display:flex;
+    align-items: center;
+}
+
+#nav>article>.logo>img{
+    height:60%;
+    width:60%;
+    /* background-color: aqua; */
+}
+#nav>article>.menu{
+    height: 80px;
+    width:45%;
+    /* background-color: red; */
+}
+#nav>article>.menu>ol{
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none; 
+    align-items: center;
+    /* background-color: red; */
+}
+sup{
+    color:rgb(225,63,108);
+    font-size:10px;
+    font-weight: 700;
+}
+#nav>article>.menu>ol>li>a{
+    text-decoration: none;
+    color: rgb(23, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+#nav>article>.SearchBar{
+    height: 80px;
+    width:28%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* background-color: blue; */
+}
+#nav>article>.SearchBar>div>input{
+    border: none;
+    width:80%;
+    background-color: rgb(245,245,246); 
+}
+#nav>article>.SearchBar>div>input:focus{
+    outline:none;
+}
+#nav>article>.SearchBar>div{
+    height:40;
+    width:90%;
+    background-color: rgb(245,245,246);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav>article>.SearchBar>div>i{
+    color:rgb(163,163,163);
+    padding:15px;
+    font-size:13px;
+}
+#nav>article>.Icons{
+    height: 80px;
+    width:20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* /* background-color: green; */
+}
+#nav>article>.Icons>div{
+    text-align: center;
+}
+#nav>article>.Icons>div>p{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:rgb(53, 53,53);
+    margin-top: 3px;
+}
+/*............... navbar code ended ...................................*/
+
+/* .......................................Firstline ...................*/
+#HeadingImage{
+    height: 130px;
+    width:100%;
+    background-color: aqua;
+}
+/* #HeadingImage>a{
+    height:100%;
+    width:100%;
+} */
+#HeadingImage>a>img{
+    height:100%;
+    width:100%;
+}
+#imgSection1{
+    height:170px;
+    width:100%;
+    display: flex;
+}
+#imgSection1>img{
+    height:170px;
+    width:10%;
+}
+ #imgSection2{
+    height:170px;
+    width:100%;
+    display:flex;
+} 
+#imgSection2>img{
+    height:170px;
+    width:10%;
+}
+/* Grand Brands */
+#HeadingImage>a>img{
+    height:100%;
+    width:100%;
+}
+#imgSection3{
+    height:170px;
+    width:100%;
+    display: flex;
+}
+#imgSection3>img{
+    height:170px;
+    width:10%;
+}
+ #imgSection4{
+    height:170px;
+    width:100%;
+    display:flex;
+} 
+#imgSection4>img{
+    height:170px;
+    width:10%;
+}
+/*................... BrandstoBag....................... */
+#HeadingImage>a>img{
+    height:100%;
+    width:100%;
+}
+#imgSection5{
+    height:170px;
+    width:100%;
+    display: flex;
+}
+#imgSection5>img{
+    height:170px;
+    width:10%;
+}
+ #imgSection6{
+
+
+    
+    height:170px;
+    width:100%;
+    display:flex;
+} 
+#imgSection6>img{
+    height:170px;
+    width:10%;
+}
+/*............... Budget Buys .................*/
+#HeadingImage>a>img{
+    height:100%;
+    width:100%;
+}
+#imgSection7{
+    height:170px;
+    width:128%;
+    display: flex;
+}
+#imgSection7>img{
+    height:170px;
+    width:10%;
+}
+ #imgSection8{
+    
+    height:170px;
+    width:128%;
+    display:flex;
+} 
+#imgSection8>img{
+    height:170px;
+    width:10%;
+}
+/*..................... shop by catagory......................... */
+#HeadingImage>a>img{
+    height:100%;
+    width:100%;
+}
+#imgSection9{
+    height:250px;
+    width:168%;
+    display: flex;
+}
+#imgSection9>img{
+    height:250px;
+    width:10%;
+}
+ #imgSection10{
+    height:250px;
+    width:168%;
+    display:flex;
+} 
+#imgSection10>img{
+    height:250px;
+    width:10%;
+}
+#imgSection11{
+    height:250px;
+    width:168%;
+    display: flex;
+}
+#imgSection11>img{
+    height:250px;
+    width:10%;
+}
+ #imgSection12{
+    height:250px;
+    width:168%;
+    display:flex;
+} 
+#imgSection12>img{
+    height:250px;
+    width:10%;
+}
+#imgSection13{
+    height:250px;
+    width:168%;
+    display: flex;
+}
+#imgSection13>img{
+    height:250px;
+    width:10%;
+}
+ #imgSection14{
+    height:250px;
+    width:168%;
+    display:flex;
+    padding-right: 850px;
+} 
+#imgSection14>img{
+    height:250px;
+    width:168%;
+}
+
+/*............... Budget Buys .................*/
+#HeadingImage>a>img{
+    height:100%;
+    width:100%;
+}
+#imgSection7{
+    height:170px;
+    width:128%;
+    display: flex;
+}
+#imgSection7>img{
+    height:170px;
+    width:10%;
+}
+ #imgSection8{
+    
+    height:170px;
+    width:128%;
+    display:flex;
+} 
+#imgSection8>img{
+    height:170px;
+    width:10%;
+}
+ 
+html,body{
+    width:100%;
+    height:100%;
+    margin: 0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+/*......................... FOOTER ..............................................*/
+#footer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(250, 251, 252);
+    border: 2px solid rgb(250,251,252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer>article{
+    height: 80%;
+    width: 85%;
+    /* background-color: aqua; */
+    display: flex;
+}
+#footer>article>.onlineShop{
+    height: 100%;
+    width: 15%;
+    /* background-color: beige; */
+}
+#footer>article>.onlineShop>ol{
+    list-style: none;
+    line-height: 25px;
+}
+#footer>article>.onlineShop>ol>li>a{
+    text-decoration: none;
+    color: rgb(105, 107, 121);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#footer>article>.onlineShop>.list2{
+    margin-top: 20px;
+}
+
+.a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: rgb(47, 44, 63);
+    margin-bottom: 20px;
+}
+#footer>article>.customerPolicy{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+}
+#footer>article>.Exp{
+    height: 100%;
+    width: 30%;
+    /* background-color: red; */
+}
+#footer>article>.Original{
+    height: 100%;
+    width: 40%;
+    /* background-color: green; */
+}
+#footer>article>.customerPolicy{
+    height: 100%;
+    width: 20%;
+}
+#footer>article>.customerPolicy>ol{
+    list-style-type: none;
+    line-height: 25px;
+}
+#footer>article>.customerPolicy>ol>li>a{
+    text-decoration: none;
+    color: rgb(105, 107, 121);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#footer>article>.Exp{
+    height: 100%;
+    width: 40%;
+}
+#footer>article>.Exp>ol{
+    list-style-type: none;
+    line-height: 25px;
+}
+#footer>article>.Original{
+    height: 100%;
+    width: 40%;
+    /* background-color: green; */
+}#footer>article>.Original>ol>li{
+    list-style-type: none;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+#footer > article>.original > ol >h5{
+    list-style-type: none;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  /* .image>img{
+    height: 70px;
+    width: 70px ;
+  }
+   */
